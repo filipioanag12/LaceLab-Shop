@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lace Lab</title>
+
+    <!-- Shiift+Alt+F pt format -->
+
+    <!-- Poppins font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- Montserrat font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- Font Awesome vector link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section id="header">
+        <div class="logo-container"> 
+            <a href="#"><img src="./img/logo.png" class="logo" /></a>
+            <span class="company-name">Lace-Lab</span>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/products/nike.jpg" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="./img/products/side.jpg" width="100%" class="small-img" walt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="/img/products/side2.jpg" width="100%" class="small-img" walt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="/img/products/side3.jpg" width="100%" class="small-img" walt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="/img/products/nike.jpg" width="100%" class="small-img" walt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Home/AirForce</h6>
+            <h4>Nike Air Force "Black Snake"</h4>
+            <h2>$299</h2>
+            <select>
+                <option>Select Size</option>
+                <option>EU 39</option>
+                <option>EU 40</option>
+                <option>EU 41</option>
+                <option>EU 42</option>
+                <option>EU 43</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Nike's Air Force 1 Foamposite receives a slap with 
+                the Black Mamba stick <br> for the Year of the Snake. 
+                These stealthy AF1s are just the ticket for sliding <br>down 
+                the street in style, with a shimmering black-on-black snakeskin <br>
+                pattern upper and a banging visible Air bubble in the heel.
+            </span>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Our Newsletter</h4>
+            <p>Get E-mail updates about our latest <span>special offers!</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Insert your e-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <!-- <img class="logo" src="./img/logo.png" alt=""> -->
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 1234 Where-Did-I-Put-My-Keys Avenue, Lost & Found City, CA 54321</p>
+            <p><strong>Phone:</strong> 800-LACE-LAB</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Fri</p>
+            <div class="follow">
+                <h4>Follow Us On Social Media</h4>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <!-- <div class="col">
+            <h4>Newsletter</h4>
+            <p>Sign up for our newsletter for the latest news and exclusive offers.</p>
+            <input type="text" placeholder="Your e-mail address">
+            <button class="normal">Sign Up</button>
+        </div> -->
+
+        <div class="copyright">
+            <p>Copyright © 2023-2024 Lace Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById('MainImg');
+        var smallimg = document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function () {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
